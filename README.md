@@ -36,3 +36,33 @@ Por último, deverá ser feito um menu interativo com as seguintes ações imple
 
 ## Solução
 O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+
+## Adições
+
+Adicionei docker ao meu projeto pois a versão do DotNet instalada na minha maquina é a versão 8.0
+
+Para rodar no docker basta executar os comandos:
+
+Para construir a imagem docker:
+
+```bash
+docker build -t dotnet6 .
+```
+Para executar o container:
+
+``` bash
+docker run --rm -it dotnet6
+```
+
+Ou caso tenho o utilitário make instlado:
+
+Para construir a imagem docker:
+
+``` bash
+make build
+```
+Para executar o container:
+
+``` bash
+make run
+```
