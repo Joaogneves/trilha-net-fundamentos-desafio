@@ -54,7 +54,7 @@ Para executar o container:
 docker run --rm -it dotnet6
 ```
 
-Ou caso tenho o utilitário make instlado:
+Ou caso tenho o utilitário make instalado:
 
 Para construir a imagem docker:
 
